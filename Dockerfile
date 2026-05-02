@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-RUN javac -d . src/com/bank/*.java
+RUN javac -d . src/library/*.java
 
 CMD ["java", "library.Main"]
